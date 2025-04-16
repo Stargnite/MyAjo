@@ -7,7 +7,7 @@ import { Button } from "./components/ui/button"
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#FFF6CD] flex flex-col text-gray-700">
+    <div className="min-h-screen bg-[#FFF6CD] flex flex-col text-gray-800">
 
       <div className="w-full flex items-center justify-center">
         <img src="https://i.ibb.co/sJMTVNxq/my-ajo-logo.png" alt="logo" className="" />
@@ -16,7 +16,7 @@ export default function App() {
       <main className="flex-1">
         <section className="container mx-auto px-4 py-10 md:py-10 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 max-w-4xl">
-            Secure, Rotational Group Savings. Reinvented
+            Secure, Rotational Group Savings. Reinvented!
           </h1>
           <p className="text-xl text-brown-500 mb-10 max-w-2xl px-10 md:px-0">
             We bring a traditional way of saving to the digital era. MyAjo fully runs on the blockchain so all your transactions are safe, transparent and automatic
@@ -33,7 +33,7 @@ export default function App() {
 
         <section id="features" className="container mx-auto px-4 pt-20 ">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb:6 md:mb-16 px-16 md:px-0">
-            Everything you need, Nothing you don't
+          Everything you need, Nothing you don't
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-20 px-6 py-12">
             {/* Image Section */}
@@ -48,12 +48,16 @@ export default function App() {
             {/* Text Section */}
             <div className="w-full md:w-1/2 flex flex-col gap-6 text-center md:text-left">
               <h1 className="text-2xl md:text-4xl font-bold leading-snug">
-                A Savings System That Gets You
+                How MyAjo Works
               </h1>
               <p className="text-gray-700 text-sm md:text-base md:max-w-md mx-auto md:mx-0">
-                This little step is for a transparent and trustworthy decentralized system.
-                <span className="font-semibold text-black"> MyAjo</span> is the solution to your traditional savings problems.
-                Join today and start enjoying the peace of mind you've always wanted.
+              With MyAjo, you can start a digital savings group with people you trust, 
+              just like traditional Ajo. You set the rules, everyone contributes using simple bank transfers, 
+              and smart contracts handle the payouts automatically. Each person receives 
+              the lump sum during their turn, and the cycle continues until everyone&apos;s been paid. 
+              It&apos;s the same trusted system, now faster, safer, and powered by technology.
+
+               
               </p>
             </div>
           </div>

@@ -7,7 +7,7 @@ import { Button } from "./components/ui/button"
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#FFF6CD] flex flex-col text-gray-800">
+    <div className="min-h-screen bg-[#FFF6CD] flex flex-col text-brown-800">
 
       <div className="w-full flex items-center justify-center">
         <img src="https://i.ibb.co/sJMTVNxq/my-ajo-logo.png" alt="logo" className="" />
@@ -15,10 +15,10 @@ export default function App() {
 
       <main className="flex-1">
         <section className="container mx-auto px-4 py-10 md:py-10 flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 max-w-4xl">
+          <h1 className="text-2xl md:text-6xl font-bold mb-6 max-w-4xl">
             Secure, Rotational Group Savings. Reinvented!
           </h1>
-          <p className="text-xl text-brown-500 mb-10 max-w-2xl px-10 md:px-0">
+          <p className="md:text-xl text-brown-500 text-sm mb-10 max-w-2xl px-5 md:px-0">
             We bring a traditional way of saving to the digital era. MyAjo fully runs on the blockchain so all your transactions are safe, transparent and automatic
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -32,7 +32,7 @@ export default function App() {
         </section>
 
         <section id="features" className="container mx-auto px-4 pt-20 ">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb:6 md:mb-16 px-16 md:px-0">
+          <h2 className="text-2xl md:text-4xl font-bold text-center mb:6 md:mb-16 px-5 md:px-0">
           Everything you need, Nothing you don't
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-20 px-6 py-12">
@@ -50,7 +50,7 @@ export default function App() {
               <h1 className="text-2xl md:text-4xl font-bold leading-snug">
                 How MyAjo Works
               </h1>
-              <p className="text-gray-700 text-sm md:text-base md:max-w-md mx-auto md:mx-0">
+              <p className="text-sm md:text-base md:max-w-md mx-auto md:mx-0 text-brown-500">
               With MyAjo, you can start a digital savings group with people you trust, 
               just like traditional Ajo. You set the rules, everyone contributes using simple bank transfers, 
               and smart contracts handle the payouts automatically. Each person receives 

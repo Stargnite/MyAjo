@@ -22,11 +22,11 @@ export default function App() {
             We bring a traditional way of saving to the digital era. MyAjo fully runs on the blockchain so all your transactions are safe, transparent and automatic
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-white text-brown-500 hover:bg-brown-500 px-8 font-semibold cursor-pointer">
+            {/* <Button size="lg" className="bg-white text-brown-500 hover:bg-brown-500 px-8 font-semibold cursor-pointer">
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            </Button> */}
             <Button size="lg" variant="outline" className="text-white border-white bg-amber-950 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
-              Watch pitch video
+            Get Started <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
         </section>

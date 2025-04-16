@@ -25,15 +25,17 @@ export default function App() {
             {/* <Button size="lg" className="bg-white text-brown-500 hover:bg-brown-500 px-8 font-semibold cursor-pointer">
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
             </Button> */}
-            <Button size="lg" variant="outline" className="text-white border-white bg-amber-950 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
-            Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <a href="https://forms.gle/RuJ52R29seepXJW7A" target='_blank'>
+              <Button size="lg" variant="outline" className="text-white border-white bg-amber-950 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
+                Get Started <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </div>
         </section>
 
         <section id="features" className="container mx-auto px-4 pt-20 ">
           <h2 className="text-2xl md:text-4xl font-bold text-center mb:6 md:mb-16 px-5 md:px-0">
-          Everything you need, Nothing you don't
+            Everything you need, Nothing you don't
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-20 px-6 py-12">
             {/* Image Section */}
@@ -51,13 +53,13 @@ export default function App() {
                 How MyAjo Works
               </h1>
               <p className="text-sm md:text-base md:max-w-md mx-auto md:mx-0 text-brown-500">
-              With MyAjo, you can start a digital savings group with people you trust, 
-              just like traditional Ajo. You set the rules, everyone contributes using simple bank transfers, 
-              and smart contracts handle the payouts automatically. Each person receives 
-              the lump sum during their turn, and the cycle continues until everyone&apos;s been paid. 
-              It&apos;s the same trusted system, now faster, safer, and powered by technology.
+                With MyAjo, you can start a digital savings group with people you trust,
+                just like traditional Ajo. You set the rules, everyone contributes using simple bank transfers,
+                and smart contracts handle the payouts automatically. Each person receives
+                the lump sum during their turn, and the cycle continues until everyone&apos;s been paid.
+                It&apos;s the same trusted system, now faster, safer, and powered by technology.
 
-               
+
               </p>
             </div>
           </div>
@@ -66,9 +68,11 @@ export default function App() {
         <section id="templates" className="w-full my-5 px-4 py-20 bg-amber-950 text-white">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Help us improve the culture</h2>
           <div className="text-center mt-12">
-            <Button variant="outline" className="text-white hover:text-white border-white bg-amber-950 py-0.5 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
-              Fill the form
-            </Button>
+            <a href="https://forms.gle/RuJ52R29seepXJW7A" target="_blank">
+              <Button variant="outline" className="text-white hover:text-white border-white bg-amber-950 py-0.5 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
+                Fill the form
+              </Button>
+            </a>
           </div>
         </section>
       </main>

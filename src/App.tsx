@@ -4,6 +4,7 @@ import './App.css'
 import { ArrowRight } from "lucide-react"
 
 import { Button } from "./components/ui/button"
+import { Twitter } from 'lucide-react'
 
 export default function App() {
   return (
@@ -67,10 +68,15 @@ export default function App() {
 
         <section id="templates" className="w-full my-5 px-4 py-20 bg-amber-950 text-white">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Help us improve the culture</h2>
-          <div className="text-center mt-12">
+          <div className="flex flex-col justify-center md:flex-row gap-4 text-center mt-12 items-center">
             <a href="https://forms.gle/RuJ52R29seepXJW7A" target="_blank">
-              <Button variant="outline" className="text-white hover:text-white border-white bg-amber-950 py-0.5 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
+              <Button variant="outline" className="text-white hover:text-white border-white bg-amber-950 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
                 Fill the form
+              </Button>
+            </a>
+            <a href="https://forms.gle/RuJ52R29seepXJW7A" target='_blank'>
+              <Button size="lg" variant="outline" className="border-white text-black font-semibold hover:bg-amber-700 px-8 cursor-pointer">
+                Follow us on <Twitter className="h-3 w-4" />
               </Button>
             </a>
           </div>

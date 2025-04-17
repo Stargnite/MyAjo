@@ -54,7 +54,7 @@ export default function App() {
                 How MyAjo Works
               </h1>
               <div className="flex flex-col gap-5 text-start">
-                <p className="text-sm md:text-base md:max-w-md mx-auto md:mx-0 text-brown-500 text-center">
+                <p className="text-sm md:text-base md:max-w-md mx-auto md:mx-0 text-brown-500 text-center md:text-start">
                   MyAjo brings the traditional Ajo savings system into the digital world while keeping it simple and familiar.
                 </p>
                 <p>

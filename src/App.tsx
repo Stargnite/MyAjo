@@ -74,7 +74,7 @@ export default function App() {
                 Fill the form
               </Button>
             </a>
-            <a href="https://forms.gle/RuJ52R29seepXJW7A" target='_blank'>
+            <a href="https://x.com/MyAjo_Official" target='_blank'>
               <Button size="lg" variant="outline" className="border-white text-black font-semibold hover:bg-amber-700 px-8 cursor-pointer">
                 Follow us on <Twitter className="h-3 w-4" />
               </Button>

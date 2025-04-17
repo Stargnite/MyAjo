@@ -1,54 +1,17 @@
-# React + TypeScript + Vite
+# MyAjo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<p>MyAjo is a decentralized platform that brings the traditional Ajo savings system into the digital age. Ajo is a popular informal savings model where groups of people contribute funds regularly, and the money is distributed rotationally among members. While this system builds community and trust, it often lacks transparency, is prone to errors, and depends heavily on manual management.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<p>MyAjo addresses these challenges by providing a secure, automated solution. The platform allows traditional Ajo agents to create digital savings groups, where funds are contributed to a dedicated account and managed by a smart contract. The contract ensures that funds are distributed automatically and fairly, based on a predefined schedule.</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<p>To streamline deposits, MyAjo integrates Stellar Anchor via Link.io, enabling users to deposit funds into their savings groups via bank transfers. This integration provides a seamless, low-cost, and secure way for users to contribute to the pool. Every transaction is recorded on the Stellar blockchain, ensuring transparency, security, and accountability.</p>
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<p>Additionally, MyAjo features a group chat for members to stay updated and engaged in real-time. By leveraging Stellar’s fast and low-cost transactions, MyAjo enables these grassroots financial practices to scale, bringing the benefits of decentralized finance to underserved communities.
+Our platform preserves the cultural roots of Ajo while improving efficiency, trust, and accessibility through innovative technology.</p>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+<p>Our integration plan includes using Stellar SDKs for backend transaction handling and leveraging Stellar’s tools for transparency, asset tracking, and low-cost payments. We also aim to follow relevant SEPs (such as SEP-24 for interactive deposits/withdrawals) to provide a seamless user experience.</p>

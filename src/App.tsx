@@ -84,7 +84,10 @@ export default function App() {
 
         <section id="templates" className="w-full my-5 px-4 py-20 bg-amber-950 text-white">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Fill our 2-minute survey form</h2>
+          <p>We're building MyAjo to make traditional savings easier and more secure.
+          If you've ever joined an Ajo. stopped for any reason  or never tried it — we want to hear from you.</p>
           <div className="flex flex-col justify-center md:flex-row gap-4 text-center mt-12 items-center">
+            
             <a href="https://forms.gle/RuJ52R29seepXJW7A" target="_blank">
               <Button variant="outline" className="text-white hover:text-white border-white bg-amber-950 font-semibold hover:bg-amber-700 px-8 cursor-pointer">
                 Fill the form <ArrowRight className="ml-2 h-4 w-4" />

@@ -67,7 +67,7 @@ export default function App() {
                 </p>
                 <p>
                   <span className='font-bold'>Contribute via Bank Transfer:</span>{" "}
-                  Each person sends their contribution through a bank transfer. MyAjo integrates with a Stellar Anchor to receive and confirm the payment securely.
+                  Each person sends their contribution through a bank transfer. MyAjo integrates an on/off ramp technology to receive and confirm the payment securely.
                 </p>
                 <p>
                   <span className='font-bold'>Automatic Payouts:</span>{" "}

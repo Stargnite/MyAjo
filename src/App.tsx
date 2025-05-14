@@ -75,7 +75,7 @@ export default function App() {
                 </p>
                 <p>
                   <span className='font-bold'>Transparent and Secure:</span>{" "}
-                  Every contribution and payout is recorded on the Stellar blockchain. This ensures fairness, security, and trust for everyone in the group.
+                  Every contribution and payout is recorded on the blockchain. This ensures fairness, security, and trust for everyone in the group.
                 </p>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function App() {
       <footer className="container mx-auto px-4 py-12">
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center flex flex-col gap-5">
-          <span>Built with love for Ajo communities in Nigeria. <br />Email:{" "}
+          <span>Built with love for Ajo communities. <br />Email:{" "}
             <a href="mailto:myajo.thrift@gmail.com" className='underline'>myajo.thrift@gmail.com</a>
           </span>
           <p>© {new Date().getFullYear()} <span className='font-bold'>MyAjo</span>. All rights reserved.</p>
